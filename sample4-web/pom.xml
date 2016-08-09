@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>net.ortwo</groupId>
+    <artifactId>sample4</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>sample4-web</artifactId>
+  <packaging>war</packaging>
+  <name>Sample4 Web Application</name>
+  <description>Web Application for Sample4 Projects</description>
+  <build>
+  	<plugins>
+  	  <plugin>
+        <artifactId>maven-war-plugin</artifactId>
+        <configuration>
+          <failOnMissingWebXml>false</failOnMissingWebXml>
+        </configuration>
+  	  </plugin>
+  	</plugins>
+  </build>
+</project>
